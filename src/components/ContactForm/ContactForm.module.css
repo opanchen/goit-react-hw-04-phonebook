@@ -1,0 +1,47 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 288px;
+    padding: 8px;
+    border: 1px solid;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* width: 100%; */
+    width: 270px;
+
+}
+
+input {
+    height: 24px;
+    width: 270px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    padding: 8px 4px;
+    height: 24px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 4px;
+    transition: scale 250ms linear, color scale 250ms linear, background-color 250ms linear;
+}
+
+button:hover,
+button:focus {
+    background-color: #e2ddf8;
+    scale: 1.1;
+}
+
+button:active {
+    background-color: #5F6775;
+    color:#F4F4F4;
+}

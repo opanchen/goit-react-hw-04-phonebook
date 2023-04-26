@@ -1,0 +1,25 @@
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    max-width: 460px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-text {
+    font-size: 20px;
+}
+
+.contact-name {
+    font-weight: 500;
+}
+
+.delete-btn {
+    margin-right: 16px;
+}
